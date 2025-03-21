@@ -1,0 +1,278 @@
+@import '@/uni_modules/uni-scss/variables.scss';
+$font-sm:13px;
+// 这里定义整个UI的主题 字体大小 圆角
+$tb-color-primary:#07c160;  
+$tb-color-primary2:#f0f9eb;  
+$tb-color-info:#909399;
+$tb-white:#FFFFFF;
+$tb-color-title:#333;
+$tb-font:15px;
+$tb-radius:4px;
+$tb-font-sm:14px;
+$tb-pupop-max-h:70vh;
+page{
+	font-size: $tb-font;
+	-webkit-text-size-adjust: 100% !important;
+	text-size-adjust: 100% !important;
+	-moz-text-size-adjust: 100% !important;
+}
+uni-page-body{
+	height: 100%;
+}
+/deep/.uni-body{
+	font-size: $tb-font;
+}
+
+/*统一样式*/
+.display-flex {
+    display: flex;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-c {
+    display: flex;
+    align-items: center;
+}
+
+.flex-c-sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-c-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-sb-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-c-sb-c {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-wrap-sb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-end{
+	justify-content: flex-end;
+}
+
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-1 {
+    width: 100%;
+}
+
+.item-2 {
+    width: 50%;
+}
+
+.item-3 {
+    width: 33.33%;
+}
+
+.item-4 {
+    width: 25%;
+}
+
+.item-5 {
+    width: 20%;
+}
+
+	
+.p-0{
+	padding:0
+}
+.m-0{
+	margin: 0;
+}
+.p-10{
+	padding: 10px;
+}
+.m-10{
+	margin: 10px;
+}
+
+
+.mt-1{
+	margin-top: 10px;
+}
+.mt20{
+	margin-top: 20px;
+}
+.pt-1{
+	padding-top: 10px;
+}
+.mr-1{
+	margin-right: 10px;
+}
+.ml-1{
+	margin-left: 10px;
+}
+.font-10{
+	font-size: 10px !important; 
+	transform: scale(0.83333);
+	 transform-origin: 0 0;
+}
+
+.font-sm{
+	font-size: $font-sm;
+}
+
+.tb-btn{
+	border-radius: $tb-radius;
+	font-size: $tb-font-sm;
+	min-width: 74px;
+	height: 34px;
+	text-align: center;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+}
+.tb-btn-min{
+	border-radius: $tb-radius;
+	font-size:12px;
+	min-width: 50px;
+	height: 26px;
+	text-align: center;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+}
+.tb-radius-0{
+	border-radius: 0 !important;
+}
+.tb-btn_primary {
+    background-color:$tb-color-primary;
+    border-color: $tb-color-primary;
+    color: $tb-white;
+}
+.tb-btn_primary_plain{
+	color: #67c23a;
+	background: #f0f9eb;
+	border-color: #c2e7b0;
+}
+.tb-btn_info{
+	color: $tb-white;
+	background-color: #909399;
+	border-color: #909399;
+}
+.tb-btn_info_plain{
+	color: #909399;
+	background: #f4f4f5;
+	border-color: #d3d4d6;
+}
+
+.tb-333{
+	color: #333 !important;
+}
+.tb-999{
+	color: #999;
+}
+.tb-tag{
+	
+	    background: $tb-white;
+	    padding: 3px 10px;
+	    vertical-align: middle;
+	    border-radius: 40px;
+	    font-size: $font-sm;
+		border: 1px solid #DCDFE6;
+		color: #07c160;
+}
+.tb-font{
+	font-size: $tb-font;
+}
+.tb-input{
+	    width: 100%;
+	    height: 34px;
+	    border: none !important;
+	    background-color: #f0f0f0 !important;
+	    border-radius: 20px !important;
+	    padding: 4px 10px !important;
+	    line-height: 34px;
+		font-size: $tb-font-sm;
+}
+.tb-bottom-popup{
+	min-height: 36vh;
+}
+.tb-line{
+	width: 100%;
+	height: 1px;
+	background-color: #f0f0f0;
+}
+.text-end{
+	text-align: end;
+}
+.text-c{
+	text-align: center;
+}
+
+uni-button[disabled]:not([type]), uni-button[disabled][type=default] {
+    background-color: #d3d4d6 !important;
+	color: rgba(0, 0, 0, .3) !important;
+}
+/deep/.uni-section .uni-section-header__content .uni-section__content-title {
+		font-size: $tb-font-sm;
+	}
+/deep/.uni-section .uni-section-header__decoration{
+	background-color:#07c160 !important
+}
+uni-textarea{
+	width: 100%;
+}
+
+uni-button:after{
+	border:none;
+}
+
+.rotate-icon::before {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-top: -13px;
+		margin-left: -13px;
+		z-index: 0;
+		content: "";
+		width: 23px;
+		border-radius: 50%;
+		aspect-ratio: 1;
+		transform: scale(0.85) rotate(0);
+		mask: radial-gradient(transparent calc(60% - 0.4px), #fff 50%);
+		background: conic-gradient(from 90deg at 50% 50%,
+				transparent 0deg,
+				$tb-color-primary 360deg);
+		animation: loadingCircleRun 1s linear infinite;
+	}
+
+
+	@keyframes loadingCircleRun {
+		0% {
+			transform: rotate(0deg);
+		}
+
+		100% {
+			transform: rotate(360deg);
+		}
+	}

@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('@/static/css/iconfont.ttf?t=2') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+ 
+}
+.icon-ico_newchat:before {
+  content: "\e702";
+}
+
+
+
+.icon-caogaoxiang:before {
+  content: "\e681";
+}
+
+.icon-editor_1:before {
+  content: "\100d9";
+}
+
+.icon--T:before {
+  content: "\e6a3";
+}
+.icon-zhongxinshengcheng:before {
+  content: "\e732";
+}
+.icon-xiezuo2:before {
+  content: "\e61b";
+}
+
+.icon-yunjiexi:before {
+  content: "\e7e9";
+}
+
+.icon-xiezuo:before {
+  content: "\e604";
+}
+
+.icon-fuzhi:before {
+  content: "\e603";
+}
+
+.icon-zhiling:before {
+  content: "\e62d";
+}
+
+.icon-jiexi:before {
+  content: "\e60a";
+}
+
+.icon-zhiling1:before {
+  content: "\e637";
+}
+
