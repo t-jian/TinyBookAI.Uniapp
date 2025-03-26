@@ -6,19 +6,20 @@
 
 ## 功能实现
 
-- [x] 实现流的形式输出AI响应的内容
+- [x] 实现流的形式输出AI响应的内容（ws中原样输出AI模型返回的数据即可）
 - [x] 支持切换AI大模型
 - [x] 支持新建会话内容
 - [x] 支持聊天记录保存客户端（也可以自己上传云端）
 - [x] 支持图片裁剪
 - [x] 支持文章本地自动保存，本地草稿箱恢复
+- [x] API接口权限控制及页面权限控制
 
 ## 部分功能gif演示
 
-![AI对话](/gitmd/aiChat1.gif)
-![编辑文章](/gitmd/editor.gif)
-![发布](/gitmd/publish.gif)
-![其他](/gitmd/order.gif)
+- ![AI对话](/gitmd/aiChat1.gif)
+- ![编辑文章](/gitmd/editor.gif)
+- ![发布](/gitmd/publish.gif)
+- ![其他](/gitmd/order.gif)
 
 ## 开发指南 
 
