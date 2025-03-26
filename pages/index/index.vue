@@ -237,7 +237,7 @@
 	</view>
 </template>
 <script>
-	import * from "@/config.js"
+	import {sysConst} from "@/config.js"
 	import {
 		SocketClient
 	} from "@/static/js/SocketClient.js";

@@ -22,7 +22,7 @@
 </template>
 
 <script>
-	import * from "@/config.js"
+	import {sysConst} from "@/config.js"
 	export default {
 		name: 'CustomConfirmTimer',
 		data() {
