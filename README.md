@@ -16,10 +16,11 @@
 
 ## 部分功能gif演示
 
-- ![AI对话](/gitmd/aiChat1.gif)
-- ![编辑文章](/gitmd/editor.gif)
-- ![发布](/gitmd/publish.gif)
-- ![其他](/gitmd/order.gif)
+![AI对话](/gitmd/aiChat1.gif)
+![其他](/gitmd/order.gif)
+
+![编辑文章](/gitmd/editor.gif)
+![发布](/gitmd/publish.gif)
 
 ## 开发指南 
 
